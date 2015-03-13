@@ -7,12 +7,14 @@
         <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
         <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.). Note that you still need to install WiX Toolset in Visual Studio to get the editor experience.
 
+        The binaries bundled in this are a custom build of the WiX Toolset which include support for installing Visual Studio 2015 extensions. If you only care about creating installers in Visual Studio 2015, then you should use v3.10.0.1502 of this package, which bundles the official WiX Toolset 3.10 binaries.
+
         File issues with the NuGet package at https://github.com/shana/WiX.Toolset.NuGet
         </description>
         <authors>Rob Mensching,Bob Arnson</authors>
         <owners>shana</owners>
         <projectUrl>https://github.com/shana/WiX.Toolset.NuGet</projectUrl>
-        <licenseUrl>https://github.com/shana/WiX.Toolset.NuGet/blob/v3.10.0.1502/LICENSE.md</licenseUrl>
+        <licenseUrl>https://github.com/shana/WiX.Toolset.NuGet/blob/master/LICENSE.md</licenseUrl>
         <iconUrl>http://wixtoolset.org/Content/logo_framed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>WiX MSI Installer XML</tags>

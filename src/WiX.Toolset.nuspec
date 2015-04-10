@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.7">
         <id>WiX.Toolset.2015</id>
-        <version>3.10.0.1503</version>
-        <title>WiX 3.10 Toolset for VS2015 (unofficial)</title>
+        <version>3.10.0.1504</version>
+        <title>WiX 3.10 Toolset for VS2015 (very unofficial)</title>
         <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
         <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.). Note that you still need to install WiX Toolset in Visual Studio to get the editor experience.
 
@@ -11,7 +11,7 @@
 
         File issues with the NuGet package at https://github.com/shana/WiX.Toolset.NuGet
         </description>
-        <authors>Rob Mensching,Bob Arnson</authors>
+        <authors>Rob Mensching,Bob Arnson, custom package by Andreia Gaita</authors>
         <owners>shana</owners>
         <projectUrl>https://github.com/shana/WiX.Toolset.NuGet</projectUrl>
         <licenseUrl>https://github.com/shana/WiX.Toolset.NuGet/blob/master/LICENSE.md</licenseUrl>

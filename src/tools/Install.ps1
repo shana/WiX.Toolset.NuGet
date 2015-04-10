@@ -5,7 +5,7 @@ param($installPath, $toolsPath, $package, $project)
 # ensure that we are installing into a WiX project
 if ($project.Kind -ne '{930c7802-8a8c-48f9-8165-68863bccd9dd}')
 {
-    throw "'$($project.Name)' is not a WiX project! This package will only work on WiX projects."
+    Write-Warning "'$($project.Name)' is not a WiX project! This package will only work on WiX projects."
 }
 
 # remove dummy file from project
